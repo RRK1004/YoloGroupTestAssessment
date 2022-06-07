@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-06-07T05:14:04.625Z",
+        "line": 3,
+        "name": "I want to go to the \u0027www.seleniumhq.org\u0027  On a Chrome browser of an android device",
+        "description": "",
+        "id": "navigate-to-selenium-hq-page-in-chrome-browser-in-android-device;i-want-to-go-to-the--www.seleniumhq.org---on-a-chrome-browser-of-an-android-device",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17034450800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open a Chrome browser of an android device in browserstack",
+            "match": {
+              "location": "stepDefinition.YoloStepDef.open_a_chrome_browser_of_an_android_device_in_browserstack()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1797683000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I go to \u0027https://www.google.com/\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027https://www.google.com/\u0027",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinition.YoloStepDef.i_go_to(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1420778200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I type \u0027Seleniumhq\u0027 in the searchbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Seleniumhq\u0027",
+                  "offset": 7
+                }
+              ],
+              "location": "stepDefinition.YoloStepDef.i_type_in_the_searchbox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3522677900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press enter in the searchbox",
+            "match": {
+              "location": "stepDefinition.YoloStepDef.i_press_enter_in_the_searchbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-NRVTSG05\u0027, ip: \u0027192.168.0.110\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: driver.version: RemoteWebDriver\nCapabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browser: chrome_android, browserName: chrome, browser_name: android, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, buildName: BStack Build Number 1, capabilities: {64bit: false, acceptSslCert: false, acceptSslCerts: false, appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browser: chrome_android, browserName: chrome, browser_name: android, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, buildName: BStack Build Number 1, chromeOptions: {args: [--proxy-bypass-list\u003d\u003c-loopb..., test-type, --proxy-server\u003dhttp://103.2..., --disable-features\u003dTranslate], w3c: false}, chromedriverPort: 18081, databaseEnabled: false, desired: {64bit: false, acceptSslCert: false, acceptSslCerts: false, browser: chrome_android, browserName: chrome, browser_name: android, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, buildName: BStack Build Number 1, chromeOptions: {args: [--proxy-bypass-list\u003d\u003c-loopb..., test-type, --proxy-server\u003dhttp://103.2..., --disable-features\u003dTranslate], w3c: false}, chromedriverPort: 18081, detected_language: selenium/3.141.59 (java win..., device: samsung galaxy s21, deviceName: Android, deviceOrientation: portrait, enablePerformanceLogging: false, loggingPrefs: {browser: SEVERE}, mobile: {browser: mobile, version: Samsung Galaxy S21-11.0}, newCommandTimeout: 0, new_bucketing: true, orientation: PORTRAIT, orig_os: android, osVersion: 11.0, os_version: 11.0, platform: ANDROID, platformName: Android, platformVersion: 11, realMobile: true, real_mobile: true, sessionName: BStack-[Java] Sample Test, skipServerInstallation: true, systemPort: 8201, udid: R5CRA1WW6QP, version: }, detected_language: selenium/3.141.59 (java win..., device: samsung galaxy s21, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-G991B, deviceName: R5CRA1WW6QP, deviceOrientation: portrait, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: R5CRA1WW6QP, enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, loggingPrefs: {browser: SEVERE}, mobile: {browser: mobile, version: Samsung Galaxy S21-11.0}, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orientation: PORTRAIT, orig_os: android, osVersion: 11.0, os_version: 11.0, pixelRatio: 3, platform: ANDROID, platformName: Android, platformVersion: 11, realMobile: true, real_mobile: true, sessionId: 540e9bd7b9d862332e4c7360701..., sessionName: BStack-[Java] Sample Test, skipServerInstallation: true, statBarHeight: 79, systemPort: 8201, takesScreenshot: true, udid: R5CRA1WW6QP, version: , viewportRect: {height: 2097, left: 0, top: 79, width: 1080}, warnings: {}, webStorageEnabled: false}, chromeOptions: {args: [--proxy-bypass-list\u003d\u003c-loopb..., test-type, --proxy-server\u003dhttp://103.2..., --disable-features\u003dTranslate], w3c: false}, chromedriverPort: 18081, databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: samsung galaxy s21, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-G991B, deviceName: R5CRA1WW6QP, deviceOrientation: portrait, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: R5CRA1WW6QP, enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, loggingPrefs: org.openqa.selenium.logging..., mobile: {browser: mobile, version: Samsung Galaxy S21-11.0}, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orientation: PORTRAIT, orig_os: android, osVersion: 11.0, os_version: 11.0, pixelRatio: 3, platform: ANDROID, platformName: ANDROID, platformVersion: 11, realMobile: true, real_mobile: true, sessionId: 540e9bd7b9d862332e4c7360701..., sessionName: BStack-[Java] Sample Test, skipServerInstallation: true, statBarHeight: 79, systemPort: 8201, takesScreenshot: true, udid: R5CRA1WW6QP, version: , viewportRect: {height: 2097, left: 0, top: 79, width: 1080}, warnings: {}, webStorageEnabled: false}\nSession ID: 540e9bd7b9d862332e4c7360701b78d94a9d7a1e\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinition.YoloStepDef.i_click_on_link(YoloStepDef.java:78)\r\n\tat ✽.I click on \u0027Selenium\u0027 link(file:///C:/Users/user/eclipse-workspace/YoloTest/src/test/resources/YoloTest.feature:8)\r\nCaused by: java.net.UnknownHostException: No such host is known (hub-cloud.browserstack.com)\r\n\tat java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)\r\n\tat java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)\r\n\tat java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)\r\n\tat java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)\r\n\tat java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)\r\n\tat java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)\r\n\tat java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)\r\n\tat okhttp3.Dns$1.lookup(Dns.java:40)\r\n\tat okhttp3.internal.connection.RouteSelector.resetNextInetSocketAddress(RouteSelector.java:185)\r\n\tat okhttp3.internal.connection.RouteSelector.nextProxy(RouteSelector.java:149)\r\n\tat okhttp3.internal.connection.RouteSelector.next(RouteSelector.java:84)\r\n\tat okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:214)\r\n\tat okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)\r\n\tat okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)\r\n\tat okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)\r\n\tat okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)\r\n\tat okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)\r\n\tat okhttp3.RealCall.execute(RealCall.java:77)\r\n\tat org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinition.YoloStepDef.i_click_on_link(YoloStepDef.java:78)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\n",
+              "duration": 14689410600,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "I click on \u0027Selenium\u0027 link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Selenium\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinition.YoloStepDef.i_click_on_link(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I am on Selenium HQ Page",
+            "match": {
+              "location": "stepDefinition.YoloStepDef.i_am_on_selenium_hq_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Navigate to Selenium HQ page in chrome browser in android device",
+    "description": "",
+    "id": "navigate-to-selenium-hq-page-in-chrome-browser-in-android-device",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/YoloTest.feature",
+    "tags": []
+  }
+]
